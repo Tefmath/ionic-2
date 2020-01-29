@@ -24,12 +24,4 @@ export class HomePage {
 		 
 		 
 	}
-
-	constructor(public alertController: AlertController) {}
-
-	async alerta() {
-		const alert = await this.alertController.create({
-			
-		})
-	}
 }
